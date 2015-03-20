@@ -3,6 +3,5 @@
  */
 public class GameWindow {
 
-    // THIS IS A TEST???
-    // Test 2??
+    /// THIS IS A TEST???
 }
