@@ -5,6 +5,6 @@ public class Entity {
     double speed;
     double xPosition;
     double yPosition;
-    Boolean canAttack;
+    boolean canAttack;
     double facing;
 }
