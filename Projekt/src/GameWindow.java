@@ -3,5 +3,14 @@
  */
 public class GameWindow {
 
-    /// THIS IS A TEST???
+    int width;
+    int height;
+
+    public GameWindow(){
+
+    }
+
+    public void launch(){
+
+    }
 }

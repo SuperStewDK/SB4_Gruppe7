@@ -6,6 +6,7 @@ public class Weapon implements IEntity {
     private double speed;
     private double xPosition;
     private double yPosition;
+    private double facing;
 
     @Override
     public void onHit() {

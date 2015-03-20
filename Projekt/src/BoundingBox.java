@@ -9,7 +9,7 @@ public class BoundingBox {
     Color backgroundColor;
     boolean draw;
 
-    public boolean collide() {
+    public boolean collide(IEntity entity) {
         return false;
     }
 }
