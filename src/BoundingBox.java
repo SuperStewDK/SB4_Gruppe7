@@ -3,5 +3,5 @@
  */
 public class BoundingBox {
 
-    Viking viking = new Viking();
+
 }
