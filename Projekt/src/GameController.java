@@ -3,18 +3,18 @@
  */
 public class GameController {
 
-    int frameRate
-    long time
+    int frameRate;
+    long time;
 
-    private GameController gameController(){
-
+    private GameController gameController() {
+        return null;
     }
 
     public static GameController getInstance() {
-
+        return null;
     }
 
     public long getDelta() {
-
+        return 0;
     }
 }
