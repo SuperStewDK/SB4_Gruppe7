@@ -1,7 +1,7 @@
 /**
  * Created by Steffen on 20-03-2015.
  */
-public class Weapon implements Entity {
+public class Weapon implements IEntity {
 
     private double speed;
     private double xPosition;
