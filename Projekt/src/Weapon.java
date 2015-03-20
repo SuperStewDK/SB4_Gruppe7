@@ -8,18 +8,12 @@ public class Weapon implements IEntity {
     private double yPosition;
     private double facing;
 
-    @Override
     public void onHit() {
-
     }
 
-    @Override
     public void update(double deltaT) {
-
     }
 
-    @Override
     public void move(double deltaT) {
-
     }
 }
