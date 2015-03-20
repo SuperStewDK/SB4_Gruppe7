@@ -1,7 +1,7 @@
 /**
  * Created by Steffen on 20-03-2015.
  */
-public class Weapon extends Entity {
+public class Weapon implements Entity {
 
     private double speed;
     private double xPosition;
@@ -10,5 +10,18 @@ public class Weapon extends Entity {
     private double facing;
 
 
+    @Override
+    public void onHit() {
 
+    }
+
+    @Override
+    public void update(double deltaT) {
+
+    }
+
+    @Override
+    public void move(double deltaT) {
+
+    }
 }
