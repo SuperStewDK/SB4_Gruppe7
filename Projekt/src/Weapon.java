@@ -1,7 +1,7 @@
 /**
  * Created by Steffen on 20-03-2015.
  */
-public class Weapon {
+public class Weapon extends Entity {
 
     private double speed;
     private double xPosition;
