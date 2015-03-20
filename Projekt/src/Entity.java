@@ -7,4 +7,7 @@ public class Entity {
     private double yPosition;
     private boolean canAttack;
     private double facing;
+
+
+
 }
