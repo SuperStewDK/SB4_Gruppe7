@@ -2,9 +2,9 @@
  * Created by Steffen on 20-03-2015.
  */
 public class Entity {
-    double speed;
-    double xPosition;
-    double yPosition;
-    boolean canAttack;
-    double facing;
+    private double speed;
+    private double xPosition;
+    private double yPosition;
+    private boolean canAttack;
+    private double facing;
 }
