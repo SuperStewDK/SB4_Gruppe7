@@ -1,8 +1,7 @@
-import java.util.Objects;
-
 /**
  * Created by Steffen on 20-03-2015.
  */
+
 public class Viking implements IEntity {
     private int healthPool;
     private double speed;

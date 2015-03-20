@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="jbox2d">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/jbox2d-master/jbox2d-jni-broadphase/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/jbox2d-master/jbox2d-jni-broadphase/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/jbox2d-master/jbox2d-library/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/jbox2d-master/jbox2d-library/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/jbox2d-master/jbox2d-serialization/src/generated" />
+      <root url="file://$USER_HOME$/Downloads/jbox2d-master/jbox2d-serialization/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/jbox2d-master/jbox2d-testbed-jogl/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/jbox2d-master/jbox2d-testbed/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
