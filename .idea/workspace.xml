@@ -465,7 +465,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426857812822</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="entity attributes added&#10;">
+      <created>1426857829896</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1426857829896</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
