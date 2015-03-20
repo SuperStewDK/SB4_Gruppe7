@@ -32,7 +32,11 @@ public class Viking implements IEntity {
     }
 
     private boolean checkHealth(int health) {
-        return false;
+
+        if (health == 0) {
+            return false;
+        }
+        return true;
     }
 
 }
