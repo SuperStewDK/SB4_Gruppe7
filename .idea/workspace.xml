@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5e9f1b4-2684-44f8-bbdc-197f74651063" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projekt/src/GameWindow.java" afterPath="$PROJECT_DIR$/Projekt/src/GameWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SB4_Gruppe7.iws" />
@@ -453,7 +451,7 @@
       <created>1426854841846</created>
       <option name="number" value="Default" />
       <updated>1426854841846</updated>
-      <workItem from="1427024564490" duration="470000" />
+      <workItem from="1427024564490" duration="492000" />
     </task>
     <task id="LOCAL-00001" summary="Klasser oprettet&#10;">
       <created>1426855039324</created>
@@ -521,11 +519,17 @@
       <option name="project" value="LOCAL" />
       <updated>1426858651245</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="project setup attempted fixed.">
+      <created>1427025049430</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1427025049430</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="470000" />
+    <option name="totallyTimeSpent" value="492000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
