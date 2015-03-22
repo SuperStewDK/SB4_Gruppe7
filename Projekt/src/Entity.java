@@ -2,9 +2,24 @@
  * Created by Steffen on 20-03-2015.
  */
 public class Entity {
-    private double speed;
-    private double xPosition;
-    private double yPosition;
-    private boolean canAttack;
-    private double facing;
+    public double speed;
+    public double xPosition;
+    public double yPosition;
+    public boolean canAttack;
+    public double facing;
+
+
+    public double getxPosition() {
+        return xPosition;
+    }
+
+
+    public void update(double deltaT){
+        yPosition = yPosition + speed * deltaT;
+
+    }
+
+    public double getyPosition() {
+        return yPosition;
+    }
 }

@@ -1,6 +1,17 @@
-/**
- * Created by Steffen on 20-03-2015.
- */
+
 public class Viking extends Entity {
+
+
+    public Viking(double x, double y){
+        xPosition = x;
+        yPosition = y;
+        speed = 5;
+    }
+
+    @Override
+    public void update(double deltaT){
+
+    }
+
 
 }
