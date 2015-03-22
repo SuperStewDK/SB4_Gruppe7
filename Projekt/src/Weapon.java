@@ -3,12 +3,19 @@
  */
 public class Weapon extends Entity {
 
-    private double speed;
-    private double xPosition;
-    private double yPosition;
-    private boolean canAttack;
-    private double facing;
+    private double range;
+    private Integer damage;
 
 
+    public void update(double deltaT){
 
+    }
+
+    public void onHit(){
+
+    }
+
+    public void move(double deltaT){
+
+    }
 }

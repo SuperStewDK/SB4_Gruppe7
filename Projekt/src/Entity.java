@@ -7,4 +7,17 @@ public class Entity {
     private double yPosition;
     private boolean canAttack;
     private double facing;
+
+
+    public void update(double deltaT){
+
+    }
+
+    public void onHit(){
+
+    }
+
+    public void move(double deltaT){
+
+    }
 }
