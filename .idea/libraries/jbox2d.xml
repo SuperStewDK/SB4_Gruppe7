@@ -1,7 +1,9 @@
 <component name="libraryTable">
   <library name="jbox2d">
     <CLASSES />
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/jbox2d-library-2.2.1.1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="file://$USER_HOME$/Downloads/jbox2d-master/jbox2d-jni-broadphase/src/main/java" />
       <root url="file://$USER_HOME$/Downloads/jbox2d-master/jbox2d-jni-broadphase/src/test/java" />
