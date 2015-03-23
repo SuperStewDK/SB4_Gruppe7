@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.geom.AffineTransform;
+import java.util.ArrayList;
 
 
 /**
@@ -19,7 +20,7 @@ public class Map extends JPanel implements ActionListener {
 
     public Map(){
 
-        ImageIcon icon = new ImageIcon("C:/Users/Steffen/IdeaProjects/SB4_Gruppe7/projekt/src/Background.png");
+        ImageIcon icon = new ImageIcon("/Users/benjaminmlynek/Coding/IdeaProjects/SB4_Gruppe7/Projekt/src/img/DodgeballMap.png");
         background = icon.getImage();
 
         w = background.getWidth(this);
@@ -51,12 +52,32 @@ public class Map extends JPanel implements ActionListener {
         g2d.setTransform(newForm);
         g2d.drawImage(viking.getImage(), viking.getX(),viking.getY(), this);
 
+        ArrayList axes = viking.getAxes();
+
+        for (int i = 0; i < axes.size(); i++) {
+            Weapon w = (Weapon) axes.get(i);
+            g2d.drawImage(w.getImage(), w.getX(), w.getY(), this);
+        }
+
+
         Toolkit.getDefaultToolkit().sync();
         g.dispose();
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
+
+        ArrayList axes = viking.getAxes();
+
+        for (int i = 0; i < axes.size(); i++) {
+            Weapon w = (Weapon) axes.get(i);
+            if (w.isVisible()) {
+                w.move(1);
+            } else {
+                axes.remove(i);
+            }
+        }
+
         viking.move();
         repaint();
     }

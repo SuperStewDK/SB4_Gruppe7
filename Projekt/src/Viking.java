@@ -3,6 +3,7 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.geom.AffineTransform;
+import java.util.ArrayList;
 
 /**
  * Created by Steffen on 20-03-2015.
@@ -12,7 +13,7 @@ public class Viking extends JComponent {
     private double speed = 3;
     int width;
     int height;
-    private String viking = "C:/Users/Steffen/IdeaProjects/SB4_Gruppe7/projekt/src/helmet.gif";
+    private String viking = "/Users/benjaminmlynek/Coding/IdeaProjects/SB4_Gruppe7/Projekt/src/img/helmet.gif";
     private int dx;
     private int dy;
     private int x;
@@ -21,12 +22,17 @@ public class Viking extends JComponent {
     double currentAngle;
     boolean up = false,down= false,left= false,right= false;
 
+    //Weapon
+    private ArrayList axes;
+    private final int VIKING_SIZE = 20;
 
     public Viking() {
         ImageIcon ii = new ImageIcon(viking);
-        image = ii.getImage().getScaledInstance(40,60,10);
-        width = 40;
-        height = 60;
+        image = ii.getImage().getScaledInstance(77,37,Image.SCALE_SMOOTH);
+        width = 77;
+        height = 37;
+
+        axes = new ArrayList();
 
         x = 40;
         y = 60;
@@ -79,6 +85,10 @@ public class Viking extends JComponent {
     public void keyPressed(KeyEvent e) {
         int key = e.getKeyCode();
 
+        if (key == KeyEvent.VK_SPACE) {
+            throwAxe();
+        }
+
         if (key == KeyEvent.VK_LEFT) {
             left = true;
         }
@@ -122,6 +132,12 @@ public class Viking extends JComponent {
 
     public void throwAxe() {
 
+        axes.add(new Weapon(x + VIKING_SIZE, y + VIKING_SIZE/2));
+
+    }
+
+    public ArrayList getAxes() {
+        return axes;
     }
 
     public void update(double deltaT) {

@@ -6,8 +6,8 @@ import java.awt.*;
  */
 public class GameWindow extends JFrame{
 
-    int width = 806;
-    int height = 628;
+    int width = 1000;
+    int height = 722;
 
     public GameWindow(){
         add(new Map());
