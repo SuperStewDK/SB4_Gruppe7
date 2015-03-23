@@ -17,7 +17,8 @@ public class Weapon implements IEntity {
     private Image image;
     private int x,y;
 
-    private String axe = "/Users/benjaminmlynek/Coding/IdeaProjects/SB4_Gruppe7/Projekt/src/img/throwingaxe.jpg";
+    // skal laves om til en url, så der ikke skal ændres hele tiden
+    private String axe = "/C:/Users/Steffen/IdeaProjects/SB4_Gruppe7/Projekt/src/img/throwingaxe.jpg";
 
     public Weapon(int x, int y) {
         ImageIcon ii = new ImageIcon(axe);
