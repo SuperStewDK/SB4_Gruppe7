@@ -1,10 +1,76 @@
+import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import java.awt.geom.AffineTransform;
+
 
 /**
  * Created by Steffen on 20-03-2015.
  */
-public class Map {
-    int width;
-    int height;
+public class Map extends JPanel implements ActionListener {
+    int w;
+    int h;
     Image background;
+    private Timer timer;
+    private Viking viking;
+
+    public Map(){
+
+        ImageIcon icon = new ImageIcon("C:/Users/Steffen/IdeaProjects/SB4_Gruppe7/projekt/src/Background.png");
+        background = icon.getImage();
+
+        w = background.getWidth(this);
+        h = background.getHeight(this);
+        setPreferredSize(new Dimension(w, h));
+
+        addKeyListener(new TAdapter());
+        setFocusable(true);
+
+        setDoubleBuffered(true);
+
+        viking = new Viking();
+
+        timer = new Timer(1000/60, this);
+        timer.start();
+    }
+
+    public void paint(Graphics g) {
+        super.paint(g);
+
+        Graphics2D g2d = (Graphics2D)g;
+        g2d.drawImage(background, 0, 0, null);
+
+        AffineTransform origForm = g2d.getTransform();
+        AffineTransform newForm = (AffineTransform)(origForm.clone());
+
+        newForm.rotate(Math.toRadians(viking.currentAngle),viking.getX()+viking.width/2,viking.getY()+viking.height/2);
+
+        g2d.setTransform(newForm);
+        g2d.drawImage(viking.getImage(), viking.getX(),viking.getY(), this);
+
+        Toolkit.getDefaultToolkit().sync();
+        g.dispose();
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        viking.move();
+        repaint();
+    }
+
+
+    private class TAdapter extends KeyAdapter {
+
+        public void keyReleased(KeyEvent e) {
+            viking.keyReleased(e);
+        }
+
+        public void keyPressed(KeyEvent e) {
+            viking.keyPressed(e);
+        }
+    }
+
 }
