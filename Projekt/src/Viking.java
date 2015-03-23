@@ -28,9 +28,9 @@ public class Viking extends JComponent {
 
     public Viking() {
         ImageIcon ii = new ImageIcon(viking);
-        image = ii.getImage().getScaledInstance(77,37,Image.SCALE_SMOOTH);
-        width = 77;
-        height = 37;
+        image = ii.getImage().getScaledInstance(37,77,Image.SCALE_SMOOTH);
+        width = 37;
+        height = 77;
 
         axes = new ArrayList();
 
