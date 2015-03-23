@@ -1,31 +1,46 @@
-import javax.swing.JFrame;
+import com.sun.prism.*;
+import org.jbox2d.dynamics.World;
+
+import javax.swing.*;
 import java.awt.*;
 
 /**
  * Created by Steffen on 20-03-2015.
  */
-public class GameWindow extends JFrame{
+public class GameWindow extends JFrame {
 
-    int width = 806;
-    int height = 628;
+    int width = 1000;
+    int height = 722;
 
-    public GameWindow(){
-        add(new Map());
 
-        setSize(width, height);
-        setTitle("Viking DodgeBall: Fighting for Valhalla");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setResizable(false);
-        setLocationRelativeTo(null);
-    }
+    public static void main(String[] args) {
 
-    public static void main(String[] args){
         EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
-                GameWindow ex = new GameWindow();
-                ex.setVisible(true);
+                GameWindow gameWindow = new GameWindow();
+                gameWindow.setVisible(true);
             }
         });
+
+    }
+
+    public GameWindow(){
+
+        launch();
+
+    }
+    public void launch(){
+
+        add(new Map());
+
+        setSize(width, height);
+
+        setTitle("Viking Dodgeball");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+        setResizable(false);
+        setVisible(true);
+
     }
 }

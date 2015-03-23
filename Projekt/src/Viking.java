@@ -1,46 +1,55 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
+import java.awt.Component.*;
 import java.awt.geom.AffineTransform;
+import java.awt.image.BufferedImage;
+import java.awt.image.VolatileImage;
+import java.util.ArrayList;
 
 /**
  * Created by Steffen on 20-03-2015.
  */
-public class Viking extends JComponent {
-//    private int healthPool;
-    private double speed = 3;
-    int width;
-    int height;
-    private String viking = "C:/Users/Steffen/IdeaProjects/SB4_Gruppe7/projekt/src/helmet.gif";
+
+public class Viking implements IEntity {
+    private int healthPool;
+    private double speed;
+    private double xPosition;
+    private double yPosition;
+    private boolean canAttack;
+    private double facing;
+
+    private String viking = "/Users/benjaminmlynek/Coding/IdeaProjects/SB4_Gruppe7/Projekt/src/img/helmet.gif";
     private int dx;
     private int dy;
     private int x;
     private int y;
     private Image image;
-    double currentAngle;
-    boolean up = false,down= false,left= false,right= false;
-
+    private ArrayList axes;
+    private final int VIKING_SIZE = 20;
+    private int width;
+    private int height;
 
     public Viking() {
-        ImageIcon ii = new ImageIcon(viking);
-        image = ii.getImage().getScaledInstance(40,60,10);
-        width = 40;
-        height = 60;
 
+        ImageIcon ii = new ImageIcon(viking);
+        image = ii.getImage().getScaledInstance(77, 36, Image.SCALE_SMOOTH);
+
+        axes = new ArrayList();
         x = 40;
         y = 60;
 
     }
 
-    public boolean rotateRight() {
-        currentAngle +=10;
-        return true;
+    public void pickUp(Object obj) {
+
     }
 
-    public boolean rotateLeft(){
-        currentAngle -=10;
-        return true;
+    public void move(double deltaT) {
+
+        x += dx;
+        y += dy;
+
     }
 
     public int getX() {
@@ -55,73 +64,61 @@ public class Viking extends JComponent {
         return image;
     }
 
-    public void move(){
-        if(left && !right){
-            currentAngle -= 5;
-        }
-        if(right && !left){
-            currentAngle += 5;
-        }
-        if(up && !down){
-            double angle = Math.toRadians( currentAngle );
-            x += (int) Math.round( Math.cos(angle) * speed);
-            y += (int) Math.round( Math.sin(angle) * speed);
-        }
+    public void keyPressed(KeyEvent keyEvent) {
 
-        if(down && !up){
-            double angle = Math.toRadians( currentAngle );
-            x -= (int) Math.round( Math.cos(angle) * speed);
-            y -= (int) Math.round( Math.sin(angle) * speed);
+        int key = keyEvent.getKeyCode();
+
+        if (key == KeyEvent.VK_SPACE) {
+            throwAxe();
         }
-
-    }
-
-    public void keyPressed(KeyEvent e) {
-        int key = e.getKeyCode();
 
         if (key == KeyEvent.VK_LEFT) {
-            left = true;
+            dx = -1;
         }
 
         if (key == KeyEvent.VK_RIGHT) {
-            right = true;
+            dx = 1;
         }
 
         if (key == KeyEvent.VK_UP) {
-            up = true;
+            dy = -1;
         }
 
         if (key == KeyEvent.VK_DOWN) {
-            down = true;
+            dy = 1;
         }
-        repaint();
+
     }
 
-    public void keyReleased(KeyEvent e) {
-        int key = e.getKeyCode();
+
+    public void keyReleased(KeyEvent keyEvent) {
+        int key = keyEvent.getKeyCode();
 
         if (key == KeyEvent.VK_LEFT) {
-            left = false;
+            dx = 0;
         }
 
         if (key == KeyEvent.VK_RIGHT) {
-            right = false;
+            dx = 0;
         }
 
         if (key == KeyEvent.VK_UP) {
-            up = false;
+            dy = 0;
         }
 
         if (key == KeyEvent.VK_DOWN) {
-            down = false;
+            dy = 0;
         }
-    }
-    public void pickUp(Object obj) {
-
     }
 
     public void throwAxe() {
 
+        axes.add(new Weapon(x + VIKING_SIZE, y + VIKING_SIZE/2));
+
+    }
+
+    public ArrayList getAxes() {
+        return axes;
     }
 
     public void update(double deltaT) {
