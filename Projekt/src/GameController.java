@@ -15,6 +15,7 @@ public class GameController {
     }
 
     public long getDelta() {
-        return 0;
+        return getDelta();
     }
+
 }

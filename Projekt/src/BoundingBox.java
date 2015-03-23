@@ -1,7 +1,8 @@
 import java.awt.*;
 
 /**
- * Created by Steffen on 20-03-2015.
+ * Created by Steffen on 20-03-2015.,
+ *
  */
 public class BoundingBox {
     int width;
@@ -10,6 +11,6 @@ public class BoundingBox {
     boolean draw;
 
     public boolean collide() {
-        return false;
+      return false;
     }
 }

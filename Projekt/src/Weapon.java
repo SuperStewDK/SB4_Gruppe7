@@ -9,6 +9,17 @@ public class Weapon extends Entity {
     private boolean canAttack;
     private double facing;
 
+    public void update(Double deltaT){
+
+    }
+
+    public void onHit(){
+
+    }
+
+    public void move(Double deltaT){
+
+    }
 
 
 }
