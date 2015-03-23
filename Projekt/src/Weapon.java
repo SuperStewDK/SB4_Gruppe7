@@ -13,7 +13,7 @@ public class Weapon implements IEntity {
 
     private boolean visible;
     private final int BOARD_WIDTH = 1000;
-    private final int MISSILE_SPEED = 2;
+    private final int MISSILE_SPEED = 20;
     private Image image;
     private int x,y;
 
