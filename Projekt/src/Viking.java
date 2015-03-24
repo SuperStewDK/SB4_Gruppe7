@@ -13,7 +13,7 @@ public class Viking extends JComponent {
     private double speed = 3;
     int width;
     int height;
-    private String viking = "/Users/Mikkel/IdeaProjects/Project2/SB4_Gruppe7/Projekt/src/img/helmet.gif";
+    private String viking = "/Users/Steffen/IdeaProjects/SB4_Gruppe7/Projekt/src/img/helmet.gif";
     private int dx;
     private int dy;
     private int x;

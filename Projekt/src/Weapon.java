@@ -9,19 +9,22 @@ public class Weapon implements IEntity {
     private double speed;
     private double xPosition;
     private double yPosition;
-    private double facing;
+    public double facing;
 
     private boolean visible;
     private final int BOARD_WIDTH = 1000;
     private final int MISSILE_SPEED = 15;
     private Image image;
     private int x,y;
+    public int width, height;
 
-    private String axe = "/Users/Mikkel/IdeaProjects/Project2/SB4_Gruppe7/Projekt/src/img/throwingaxe.jpg";
+    private String axe = "/Users/Steffen/IdeaProjects/SB4_Gruppe7/Projekt/src/img/throwingaxe.png";
 
     public Weapon(int x, int y) {
+        width = 40;
+        height = 30;
         ImageIcon ii = new ImageIcon(axe);
-        image = ii.getImage().getScaledInstance(40, 30, Image.SCALE_SMOOTH);
+        image = ii.getImage().getScaledInstance(width, height, Image.SCALE_SMOOTH);
         visible = true;
         this.x = x;
         this.y = y;

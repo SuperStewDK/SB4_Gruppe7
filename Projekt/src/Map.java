@@ -12,20 +12,21 @@ import java.util.ArrayList;
  * Created by Steffen on 20-03-2015.
  */
 public class Map extends JPanel implements ActionListener {
-    int w;
-    int h;
+    int width;
+    int height;
     Image background;
     private Timer timer;
     private Viking viking;
+    private Weapon w;
 
     public Map(){
 
-        ImageIcon icon = new ImageIcon("/Users/Mikkel/IdeaProjects/Project2/SB4_Gruppe7/Projekt/src/img/DodgeballMap.png");
+        ImageIcon icon = new ImageIcon("/Users/Steffen/IdeaProjects/SB4_Gruppe7/Projekt/src/img/DodgeballMap.png");
         background = icon.getImage();
 
-        w = background.getWidth(this);
-        h = background.getHeight(this);
-        setPreferredSize(new Dimension(w, h));
+        width = background.getWidth(this);
+        height = background.getHeight(this);
+        setPreferredSize(new Dimension(width, height));
 
         addKeyListener(new TAdapter());
         setFocusable(true);
@@ -44,6 +45,7 @@ public class Map extends JPanel implements ActionListener {
         Graphics2D g2d = (Graphics2D)g;
         g2d.drawImage(background, 0, 0, null);
 
+        // creating image of viking on map
         AffineTransform origForm = g2d.getTransform();
         AffineTransform newForm = (AffineTransform)(origForm.clone());
 
@@ -52,11 +54,18 @@ public class Map extends JPanel implements ActionListener {
         g2d.setTransform(newForm);
         g2d.drawImage(viking.getImage(), viking.getX(),viking.getY(), this);
 
+        // creating image of axe on map
         g2d.setTransform(new AffineTransform());
         ArrayList axes = viking.getAxes();
 
+        AffineTransform origAxe = g2d.getTransform();
+        AffineTransform newAxe = (AffineTransform)(origAxe.clone());
+
+
         for (int i = 0; i < axes.size(); i++) {
-            Weapon w = (Weapon) axes.get(i);
+            w = (Weapon) axes.get(i);
+            newAxe.rotate(Math.toRadians(w.facing),w.getX()+w.width/2,w.getY()+w.height/2);
+            g2d.setTransform(newAxe);
             g2d.drawImage(w.getImage(), w.getX(), w.getY(), this);
         }
 
