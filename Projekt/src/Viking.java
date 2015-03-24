@@ -13,7 +13,7 @@ public class Viking extends JComponent {
     private double speed = 3;
     int width;
     int height;
-    private String viking = "/Users/benjaminmlynek/Coding/IdeaProjects/SB4_Gruppe7/Projekt/src/img/helmet.gif";
+    private String viking = "/Users/Mikkel/IdeaProjects/Project2/SB4_Gruppe7/Projekt/src/img/helmet.gif";
     private int dx;
     private int dy;
     private int x;
@@ -131,9 +131,9 @@ public class Viking extends JComponent {
     }
 
     public void throwAxe() {
-
-        axes.add(new Weapon(x + VIKING_SIZE, y + VIKING_SIZE/2));
-
+        Weapon weapon = new Weapon(x + VIKING_SIZE, y + VIKING_SIZE/2);
+        weapon.setFacing(currentAngle);
+        axes.add(weapon);
     }
 
     public ArrayList getAxes() {

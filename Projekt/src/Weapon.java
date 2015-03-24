@@ -17,7 +17,7 @@ public class Weapon implements IEntity {
     private Image image;
     private int x,y;
 
-    private String axe = "/Users/benjaminmlynek/Coding/IdeaProjects/SB4_Gruppe7/Projekt/src/img/throwingaxe.jpg";
+    private String axe = "/Users/Mikkel/IdeaProjects/Project2/SB4_Gruppe7/Projekt/src/img/throwingaxe.jpg";
 
     public Weapon(int x, int y) {
         ImageIcon ii = new ImageIcon(axe);
@@ -33,9 +33,15 @@ public class Weapon implements IEntity {
     public void update(double deltaT) {
     }
 
-    public void move(double deltaT) {
 
-        x += MISSILE_SPEED;
+    public void setFacing(double facing) {
+        this.facing = facing;
+    }
+
+    public void move(double deltaT) {
+        double angle = Math.toRadians( facing );
+        x += (int) Math.round( Math.cos(angle) * MISSILE_SPEED);
+        y += (int) Math.round( Math.sin(angle) * MISSILE_SPEED);
         if (x > BOARD_WIDTH){
             visible = false;
         }
