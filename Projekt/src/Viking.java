@@ -13,14 +13,15 @@ public class Viking extends JComponent {
     private double speed = 3;
     int width;
     int height;
-    private String viking = "C:\\Users\\Steffen\\IdeaProjects\\SB4_Gruppe7\\Projekt\\src/img/helmet.gif";
+    private String viking = "/Users/Mikkel/IdeaProjects/Project2/SB4_Gruppe7/Projekt/src/img/helmet.gif";
     private int dx;
     private int dy;
     private int x;
     private int y;
     private Image image;
     double currentAngle;
-    boolean up = false,down= false,left= false,right= false, thrown = false;
+    boolean up = false,down= false,left= false,right= false;
+
     //Weapon
     private ArrayList axes;
     private final int VIKING_SIZE = 20;
@@ -35,6 +36,17 @@ public class Viking extends JComponent {
 
         x = 40;
         y = 60;
+
+    }
+
+    public boolean rotateRight() {
+        currentAngle +=10;
+        return true;
+    }
+
+    public boolean rotateLeft(){
+        currentAngle -=10;
+        return true;
     }
 
     public int getX() {
@@ -98,10 +110,6 @@ public class Viking extends JComponent {
     public void keyReleased(KeyEvent e) {
         int key = e.getKeyCode();
 
-        if (key == KeyEvent.VK_SPACE) {
-            thrown = false;
-        }
-
         if (key == KeyEvent.VK_LEFT) {
             left = false;
         }
@@ -123,9 +131,9 @@ public class Viking extends JComponent {
     }
 
     public void throwAxe() {
-
-        axes.add(new Weapon(x + VIKING_SIZE, y + VIKING_SIZE/2));
-
+        Weapon weapon = new Weapon(x + VIKING_SIZE, y + VIKING_SIZE/2);
+        weapon.setFacing(currentAngle);
+        axes.add(weapon);
     }
 
     public ArrayList getAxes() {

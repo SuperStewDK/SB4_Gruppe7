@@ -20,7 +20,7 @@ public class Map extends JPanel implements ActionListener {
 
     public Map(){
 
-        ImageIcon icon = new ImageIcon("/C:/Users/Steffen/IdeaProjects/SB4_Gruppe7/Projekt/src/img/DodgeballMap.png");
+        ImageIcon icon = new ImageIcon("/Users/Mikkel/IdeaProjects/Project2/SB4_Gruppe7/Projekt/src/img/DodgeballMap.png");
         background = icon.getImage();
 
         w = background.getWidth(this);
@@ -52,8 +52,9 @@ public class Map extends JPanel implements ActionListener {
         g2d.setTransform(newForm);
         g2d.drawImage(viking.getImage(), viking.getX(),viking.getY(), this);
 
-        // gets axes and draws them.
+        g2d.setTransform(new AffineTransform());
         ArrayList axes = viking.getAxes();
+
         for (int i = 0; i < axes.size(); i++) {
             Weapon w = (Weapon) axes.get(i);
             g2d.drawImage(w.getImage(), w.getX(), w.getY(), this);
