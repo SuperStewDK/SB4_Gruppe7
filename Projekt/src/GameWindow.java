@@ -1,3 +1,4 @@
+import javafx.scene.control.Hyperlink;
 import javafx.scene.shape.Rectangle;
 import sun.applet.Main;
 
@@ -13,20 +14,17 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 
-/**
- * Created by Steffen on 20-03-2015.
- */
-public class GameWindow extends JPanel implements ActionListener, KeyListener {
+public class GameWindow extends JPanel implements  ActionListener {
 
-    // Størrelse på Window.
-    private int width = 800;
-    private int height = 600;
+    // Size of Window.
+    private int width = 1200;
+    private int height = 800;
 
-    // Størrelse på Viking (rectangle).
-    private int vikingBred = 65;
-    private int vikingHøj = 35;
+    // Size of Viking (rectangle).
+    private int vikingW = 55;
+    private int vikingH = 35;
 
-    // Placering af Viking.
+    // Location of Viking.
     private int rectX = 100;
     private int rectY = 100;
 
@@ -34,60 +32,88 @@ public class GameWindow extends JPanel implements ActionListener, KeyListener {
     private int velX = 0;
     private int velY = 0;
 
+
     // This refers to the actionListener.
-    Timer timer = new Timer(1, this);
+    Timer timer = new Timer(5, this);
+
+    // KeyListener.
+    KeyListener listener;
+
 
     public GameWindow () {
 
+         // KeyListener.
+        listener = new KeyListener() {
+
+            // Adding movement to the rectangle with key pressed.
+
+            public void keyPressed(KeyEvent e) {
+
+                int k = e.getKeyCode();
+
+                if (k == KeyEvent.VK_A || k == KeyEvent.VK_LEFT) {
+                    velX = -2;
+                    velY = 0;
+                // System.out.println("Does the LEFT key work?");
+                }
+                if (k == KeyEvent.VK_W || k == KeyEvent.VK_UP) {
+                    velX = 0;
+                    velY = -2;
+                   //System.out.println("Does the UP key work?");
+                }
+                if (k == KeyEvent.VK_D || k == KeyEvent.VK_RIGHT) {
+                    velX = 2;
+                    velY = 0;
+                   // System.out.println("Does the RIGHT key work?");
+                }
+                if (k == KeyEvent.VK_S || k == KeyEvent.VK_DOWN) {
+                    velX = 0;
+                    velY = 2;
+                    //System.out.println("Does the DOWN key work?");
+                }
+            }
+
+
+            public void keyTyped(KeyEvent e) {
+
+            }
+
+            // If key is released, the rect has to stop.
+            public void keyReleased(KeyEvent e) {
+                velX = 0;
+                velY = 0;
+                //System.out.println("Does it work?");
+            }
+        };
         timer.start();
-        // This is for the KeyListener.
-        addKeyListener(this);
+
         // Enable the keylistener.
         setFocusable(true);
         // Disabling the SHIFT and TAB Keys.
-        setFocusTraversalKeysEnabled(false);
+        setFocusTraversalKeysEnabled(true);
+
+
+        //setRequestFocusEnabled(true);
+
+        // This is for the KeyListener.
+
     }
 
-    // PaintComponent kan bruges til animation.
+    // PaintComponent used to make the animation.
     public void paintComponent(Graphics g){
         super.paintComponents(g);
 
-        g.setColor(Color.BLUE);
-        g.fillRect(rectX, rectY, vikingBred, vikingHøj);
+
+        g.setColor(Color.BLACK);
+        g.fillRect(0, 0, width, height);
+
+        g.setColor(Color.RED);
+        g.fillRect(rectX, rectY, vikingW, vikingH);
 
     }
 
-    // Adding movement to the rectangle with key pressed.
-    public void keyPressed(KeyEvent e){
 
-        int k = e.getKeyCode();
 
-        if (k == KeyEvent.VK_DOWN) {
-            velX = 5;
-            velY = 0;
-        }
-
-        if (k == KeyEvent.VK_A || k == KeyEvent.VK_LEFT){
-            velX = -1;
-            velY = 0;
-        }
-
-        if (k == KeyEvent.VK_W || k == KeyEvent.VK_UP){
-            velX = 0;
-            velY = -1;
-        }
-
-        if (k == KeyEvent.VK_D || k == KeyEvent.VK_RIGHT){
-            velX = 1;
-            velY = 0;
-        }
-        //
-
-        if (k == KeyEvent.VK_S || k == KeyEvent.VK_DOWN){
-            velX = 0;
-            velY = 1;
-        }
-    }
 
     // Adding movement to the rectangle.
     public void actionPerformed(ActionEvent e){
@@ -95,40 +121,24 @@ public class GameWindow extends JPanel implements ActionListener, KeyListener {
             velX = 0;
             rectX = 0;
         }
-
-        if (rectX > (width - vikingBred)){
+        if (rectX > (width - vikingW)){
             velX = 0;
-            rectX = (width - vikingBred);
+            rectX = (width - vikingW);
         }
-
         if (rectY < 0){
             velY = 0;
             rectY = 0;
         }
-
-        if (rectY > (height - vikingHøj)){
+        if (rectY > (height - vikingH  * 2 - 5)){
             velY = 0;
-            rectY = (height - vikingHøj);
+            rectY = (height - vikingH  * 2 - 5);
         }
-
-
        rectX = rectX + velX;
        rectY = rectY + velY;
         repaint();
-
     }
 
 
-    public void keyTyped(KeyEvent e){
-
-    }
-
-
-    // If key is released, the rect has to stop.
-    public void keyReleased(KeyEvent e){
-        velX = 0;
-        velY = 0;
-    }
 
     public static void createWindow() {
 
@@ -136,7 +146,7 @@ public class GameWindow extends JPanel implements ActionListener, KeyListener {
         // Craete the JFrame
         JFrame dodgeBallFrame = new JFrame("Viking Dodgeball");
         // Window size & size the frame.
-        dodgeBallFrame.setPreferredSize(new Dimension(800, 600));
+        dodgeBallFrame.setPreferredSize(new Dimension(1200, 800));
         dodgeBallFrame.pack();
         // Background Color.
         //dodgeBallFrame.getContentPane().setBackground(Color.GRAY);
@@ -151,29 +161,14 @@ public class GameWindow extends JPanel implements ActionListener, KeyListener {
         // Make sure window will close on 'X'.
         dodgeBallFrame.setDefaultCloseOperation(dodgeBallFrame.EXIT_ON_CLOSE);
         dodgeBallFrame.add(gW);
-
-        //JPanel dodgeBallPanel = new JPanel();
-        //JLabel dodgeBallLabel = new JLabel();
-        //dodgeBallLabel.setText("Dodgeball");
-       //dodgeBallLabel.setToolTipText("The Viking will be floating here!");
-
-       //dodgeBallPanel.add(dodgeBallLabel);
-       //dodgeBallFrame.add(dodgeBallPanel);
-
-
-
-
-    }
-
-   // private static void launch(){
-//
-  //      gameWindow();
-    //});
-
-
+        // KeyListener.
+        dodgeBallFrame.addKeyListener(gW.listener);
+        }
 
     public static void main(String [] args) {
         createWindow();
+
+
     }
 
 }

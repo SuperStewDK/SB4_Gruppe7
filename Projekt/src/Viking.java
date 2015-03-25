@@ -5,7 +5,7 @@ public class Viking extends Entity {
 
     private int healthPool;
     private double speed;
-    private  double xPosition;
+    private double xPosition;
     private double yPosition;
     private boolean canAttack;
     private double facing;
