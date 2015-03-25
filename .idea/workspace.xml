@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5e9f1b4-2684-44f8-bbdc-197f74651063" name="Default" comment="Removed override statement for interface methods.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Projekt/src/img/throwingaxe.png" />
-      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\Projekt\img\helmet.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\Projekt\img\helmet2.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\Projekt\src\img\throwingaxe.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projekt/src/Map.java" afterPath="$PROJECT_DIR$/Projekt/src/Map.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projekt/src/Viking.java" afterPath="$PROJECT_DIR$/Projekt/src/Viking.java" />
+    <list default="true" id="a5e9f1b4-2684-44f8-bbdc-197f74651063" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projekt/src/Weapon.java" afterPath="$PROJECT_DIR$/Projekt/src/Weapon.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -45,29 +39,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Viking.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Viking.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projekt/src/Viking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.795341" vertical-offset="1935" max-vertical-offset="2703">
-              <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1289" max-vertical-offset="2669">
+              <caret line="121" column="23" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3026#3027#0" expanded="true" />
-                <element signature="e#3053#3054#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Weapon.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Weapon.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projekt/src/Weapon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="1139">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.0786802" vertical-offset="530" max-vertical-offset="1105">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,7 +66,7 @@
       <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projekt/src/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1853">
+            <state vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="1853">
               <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -127,8 +117,8 @@
         <option value="$PROJECT_DIR$/Projekt/src/IEntity.java" />
         <option value="$PROJECT_DIR$/Projekt/src/GameWindow.java" />
         <option value="$PROJECT_DIR$/Projekt/src/Viking.java" />
-        <option value="$PROJECT_DIR$/Projekt/src/Weapon.java" />
         <option value="$PROJECT_DIR$/Projekt/src/Map.java" />
+        <option value="$PROJECT_DIR$/Projekt/src/Weapon.java" />
       </list>
     </option>
   </component>
@@ -138,8 +128,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -620,7 +610,13 @@
       <option name="project" value="LOCAL" />
       <updated>1427123168687</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="tilføjet rotation på axe så den peger samme retning som viking, der er opstået et problem med at axes kun kan kastes 5 gange.">
+      <created>1427209145478</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1427209145478</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -647,7 +643,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -660,10 +656,10 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32620922" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3364979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.336478" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16764276" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -703,7 +699,8 @@
     <MESSAGE value="Added fields and methods." />
     <MESSAGE value="Entity interface lavet" />
     <MESSAGE value="Removed override statement for interface methods." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed override statement for interface methods." />
+    <MESSAGE value="tilføjet rotation på axe så den peger samme retning som viking, der er opstået et problem med at axes kun kan kastes 5 gange." />
+    <option name="LAST_COMMIT_MESSAGE" value="tilføjet rotation på axe så den peger samme retning som viking, der er opstået et problem med at axes kun kan kastes 5 gange." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -731,8 +728,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3026#3027#0" expanded="true" />
-            <element signature="e#3053#3054#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -743,8 +738,6 @@
           <caret line="19" column="112" selection-start-line="19" selection-start-column="112" selection-end-line="19" selection-end-column="112" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -773,8 +766,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3026#3027#0" expanded="true" />
-            <element signature="e#3053#3054#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -813,8 +804,6 @@
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -825,8 +814,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3026#3027#0" expanded="true" />
-            <element signature="e#3053#3054#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -863,8 +850,6 @@
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -875,8 +860,6 @@
           <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3026#3027#0" expanded="true" />
-            <element signature="e#3053#3054#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -913,8 +896,6 @@
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -925,8 +906,6 @@
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3026#3027#0" expanded="true" />
-            <element signature="e#3053#3054#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -955,8 +934,6 @@
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -967,8 +944,6 @@
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3026#3027#0" expanded="true" />
-            <element signature="e#3053#3054#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -997,8 +972,6 @@
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1009,8 +982,6 @@
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3026#3027#0" expanded="true" />
-            <element signature="e#3053#3054#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1039,8 +1010,6 @@
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1051,8 +1020,6 @@
           <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3026#3027#0" expanded="true" />
-            <element signature="e#3053#3054#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1071,8 +1038,6 @@
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1083,8 +1048,6 @@
           <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3026#3027#0" expanded="true" />
-            <element signature="e#3053#3054#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1103,8 +1066,6 @@
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1115,8 +1076,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3026#3027#0" expanded="true" />
-            <element signature="e#3053#3054#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1135,8 +1094,6 @@
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1147,8 +1104,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3026#3027#0" expanded="true" />
-            <element signature="e#3053#3054#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1159,8 +1114,6 @@
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1204,14 +1157,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projekt/src/Weapon.java">
+    <entry file="file://$PROJECT_DIR$/Projekt/src/Viking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="1139">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1289" max-vertical-offset="2669">
+          <caret line="121" column="23" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1226,14 +1177,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projekt/src/Viking.java">
+    <entry file="file://$PROJECT_DIR$/Projekt/src/Weapon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.795341" vertical-offset="1935" max-vertical-offset="2703">
-          <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+        <state vertical-scroll-proportion="0.0786802" vertical-offset="530" max-vertical-offset="1105">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3026#3027#0" expanded="true" />
-            <element signature="e#3053#3054#0" expanded="true" />
           </folding>
         </state>
       </provider>

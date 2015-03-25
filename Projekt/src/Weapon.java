@@ -45,7 +45,7 @@ public class Weapon implements IEntity {
         double angle = Math.toRadians( facing );
         x += (int) Math.round( Math.cos(angle) * MISSILE_SPEED);
         y += (int) Math.round( Math.sin(angle) * MISSILE_SPEED);
-        if (x > BOARD_WIDTH){
+        if (x > BOARD_WIDTH || x < 0 || y < 0 || y > new GameWindow().height){
             visible = false;
         }
 
