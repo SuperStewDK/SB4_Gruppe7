@@ -6,8 +6,16 @@ import java.awt.*;
  */
 public class GameWindow extends JFrame{
 
+    public static GameWindow instance;
     int width = 1000;
     int height = 722;
+
+    public static GameWindow getInstance(){
+        if(instance == null){
+            instance = new GameWindow();
+        }
+        return instance;
+    }
 
     public GameWindow(){
         add(new Map());
@@ -18,6 +26,8 @@ public class GameWindow extends JFrame{
         setResizable(false);
         setLocationRelativeTo(null);
     }
+
+
 
     public static void main(String[] args){
         EventQueue.invokeLater(new Runnable() {

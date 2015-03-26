@@ -20,6 +20,14 @@ public class Weapon implements IEntity {
 
     private String axe = "/Users/Steffen/IdeaProjects/SB4_Gruppe7/Projekt/src/img/throwingaxe.png";
 
+    public Weapon(){
+        ImageIcon icon = new ImageIcon(axe);
+        image = icon.getImage();
+        visible = true;
+        x = 480;
+        y = 350;
+    }
+
     public Weapon(int x, int y) {
         width = 40;
         height = 30;

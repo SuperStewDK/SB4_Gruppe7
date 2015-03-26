@@ -41,9 +41,10 @@ public class Map extends JPanel implements ActionListener {
 
     public void paint(Graphics g) {
         super.paint(g);
-
+        w = new Weapon();
         Graphics2D g2d = (Graphics2D)g;
         g2d.drawImage(background, 0, 0, null);
+        g2d.drawImage(w.getImage(),w.getX(),w.getY(),this);
 
         // creating image of viking on map
         AffineTransform origForm = g2d.getTransform();
@@ -54,13 +55,12 @@ public class Map extends JPanel implements ActionListener {
         g2d.setTransform(newForm);
         g2d.drawImage(viking.getImage(), viking.getX(),viking.getY(), this);
 
-        // creating image of axe on map
+        // creating image of a thrown axe on map
         g2d.setTransform(new AffineTransform());
         ArrayList axes = viking.getAxes();
 
         AffineTransform origAxe = g2d.getTransform();
         AffineTransform newAxe = (AffineTransform)(origAxe.clone());
-
 
         for (int i = 0; i < axes.size(); i++) {
             w = (Weapon) axes.get(i);

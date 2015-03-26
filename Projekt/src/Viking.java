@@ -21,6 +21,7 @@ public class Viking extends JComponent {
     private Image image;
     double currentAngle;
     boolean up = false,down= false,left= false,right= false;
+    boolean canThrow;
 
     //Weapon
     private ArrayList axes;
@@ -31,9 +32,8 @@ public class Viking extends JComponent {
         image = ii.getImage().getScaledInstance(37,77,Image.SCALE_SMOOTH);
         width = 37;
         height = 77;
-
         axes = new ArrayList();
-
+        canThrow = false;
         x = 40;
         y = 60;
 
