@@ -1,8 +1,5 @@
-import javafx.scene.control.Hyperlink;
-import javafx.scene.shape.Rectangle;
-import sun.applet.Main;
-
 import java.awt.*;
+import javax.imageio.ImageIO;
 import javax.swing.Timer;
 import java.awt.event.KeyListener;
 import java.awt.event.ActionEvent;
@@ -10,6 +7,8 @@ import java.awt.event.ActionListener;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.KeyEvent;
+import java.awt.image.BufferedImage;
+import java.io.File;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -32,6 +31,13 @@ public class GameWindow extends JPanel implements  ActionListener {
     private int velX = 0;
     private int velY = 0;
 
+    private BufferedImage viking;
+
+  //  private Image image = Toolkit.getDefaultToolkit().getImage("viking.jpg");
+
+    int cx = getSize().width / 2;
+    int cy = getSize().height / 2;
+
 
     // This refers to the actionListener.
     Timer timer = new Timer(5, this);
@@ -40,13 +46,13 @@ public class GameWindow extends JPanel implements  ActionListener {
     KeyListener listener;
 
 
+
     public GameWindow () {
 
          // KeyListener.
         listener = new KeyListener() {
 
             // Adding movement to the rectangle with key pressed.
-
             public void keyPressed(KeyEvent e) {
 
                 int k = e.getKeyCode();
@@ -54,24 +60,23 @@ public class GameWindow extends JPanel implements  ActionListener {
                 if (k == KeyEvent.VK_A || k == KeyEvent.VK_LEFT) {
                     velX = -2;
                     velY = 0;
-                // System.out.println("Does the LEFT key work?");
                 }
                 if (k == KeyEvent.VK_W || k == KeyEvent.VK_UP) {
                     velX = 0;
                     velY = -2;
-                   //System.out.println("Does the UP key work?");
                 }
                 if (k == KeyEvent.VK_D || k == KeyEvent.VK_RIGHT) {
                     velX = 2;
                     velY = 0;
-                   // System.out.println("Does the RIGHT key work?");
                 }
                 if (k == KeyEvent.VK_S || k == KeyEvent.VK_DOWN) {
                     velX = 0;
                     velY = 2;
-                    //System.out.println("Does the DOWN key work?");
                 }
+
+               // image = Toolkit.getDefaultToolkit().getImage("viking.jpg");
             }
+
 
 
             public void keyTyped(KeyEvent e) {
@@ -109,6 +114,25 @@ public class GameWindow extends JPanel implements  ActionListener {
 
         g.setColor(Color.RED);
         g.fillRect(rectX, rectY, vikingW, vikingH);
+
+        //rotate about 0, 0
+        Graphics2D graphics2D = (Graphics2D)g.create();
+        graphics2D.rotate(Math.toRadians(45));
+        graphics2D.setColor(Color.red);
+        graphics2D.fillRect(rectX, rectY, vikingW, vikingH);
+
+       // graphics2D.drawImage(image, 50, 50, this);
+
+       // graphics2D.drawImage(image, -cx / 2, -cy / 2, this);
+        //rotate about 100, 100
+        //graphics2D = (Graphics2D)g.create();
+        //graphics2D.rotate(Math.toRadians(45), 100, 100);
+        //graphics2D.setColor(Color.blue);
+       // graphics2D.fillRect(rectX, rectY, vikingW, vikingH);
+
+
+        //dispose Graphics2D object
+        graphics2D.dispose();
 
     }
 
