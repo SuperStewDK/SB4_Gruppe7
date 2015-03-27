@@ -9,18 +9,16 @@ import java.util.ArrayList;
  * Created by Steffen on 20-03-2015.
  */
 public class Viking extends JComponent {
-//    private int healthPool;
+    private int healthPool;
     private double speed = 3;
     int width;
     int height;
     private String viking = "/Users/Steffen/IdeaProjects/SB4_Gruppe7/Projekt/src/img/helmet.gif";
-    private int dx;
-    private int dy;
     private int x;
     private int y;
     private Image image;
     double currentAngle;
-    boolean up = false,down= false,left= false,right= false;
+    boolean up = false, down= false, left= false, right= false;
     boolean canThrow;
 
     //Weapon
@@ -39,14 +37,16 @@ public class Viking extends JComponent {
 
     }
 
-    public boolean rotateRight() {
-        currentAngle +=10;
-        return true;
-    }
+    public void draw(Graphics g){
+        // creating image of viking on map
+        Graphics2D g2d = (Graphics2D)g;
+        AffineTransform origForm = g2d.getTransform();
+        AffineTransform newForm = (AffineTransform)(origForm.clone());
 
-    public boolean rotateLeft(){
-        currentAngle -=10;
-        return true;
+        newForm.rotate(Math.toRadians(currentAngle),getX()+width/2,getY()+height/2);
+
+        g2d.setTransform(newForm);
+        g2d.drawImage(getImage(), getX(),getY(), this);
     }
 
     public int getX() {
@@ -144,8 +144,8 @@ public class Viking extends JComponent {
 
     }
 
-    public void onHit() {
-
+    public boolean onHit() {
+        return true;
     }
 
     private boolean checkHealth(int health) {

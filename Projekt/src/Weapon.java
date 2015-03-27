@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.geom.AffineTransform;
+import java.util.ArrayList;
 
 /**
  * Created by Steffen on 20-03-2015.
@@ -36,6 +38,23 @@ public class Weapon implements IEntity {
         visible = true;
         this.x = x;
         this.y = y;
+    }
+
+    public void draw(Graphics g, Viking viking, Weapon weapon){
+        // creating image of a thrown axe on map
+        Graphics2D g2d = (Graphics2D) g;
+        g2d.setTransform(new AffineTransform());
+        ArrayList axes = viking.getAxes();
+
+        AffineTransform origAxe = g2d.getTransform();
+        AffineTransform newAxe = (AffineTransform)(origAxe.clone());
+
+        for (int i = 0; i < axes.size(); i++) {
+            weapon = (Weapon) axes.get(i);
+            newAxe.rotate(Math.toRadians(weapon.facing),weapon.getX()+weapon.width/2,weapon.getY()+weapon.height/2);
+            g2d.setTransform(newAxe);
+            g2d.drawImage(weapon.getImage(), weapon.getX(), weapon.getY(), null);
+        }
     }
 
     public void onHit() {

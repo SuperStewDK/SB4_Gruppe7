@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.geom.AffineTransform;
+import java.nio.file.Watchable;
 import java.util.ArrayList;
 
 
@@ -18,6 +19,7 @@ public class Map extends JPanel implements ActionListener {
     private Timer timer;
     private Viking viking;
     private Weapon w;
+    private Weapon initW;
 
     public Map(){
 
@@ -42,33 +44,13 @@ public class Map extends JPanel implements ActionListener {
     public void paint(Graphics g) {
         super.paint(g);
         w = new Weapon();
+        initW = new Weapon();
         Graphics2D g2d = (Graphics2D)g;
         g2d.drawImage(background, 0, 0, null);
-        g2d.drawImage(w.getImage(),w.getX(),w.getY(),this);
+        g2d.drawImage(initW.getImage(),initW.getX(),initW.getY(),this);
 
-        // creating image of viking on map
-        AffineTransform origForm = g2d.getTransform();
-        AffineTransform newForm = (AffineTransform)(origForm.clone());
-
-        newForm.rotate(Math.toRadians(viking.currentAngle),viking.getX()+viking.width/2,viking.getY()+viking.height/2);
-
-        g2d.setTransform(newForm);
-        g2d.drawImage(viking.getImage(), viking.getX(),viking.getY(), this);
-
-        // creating image of a thrown axe on map
-        g2d.setTransform(new AffineTransform());
-        ArrayList axes = viking.getAxes();
-
-        AffineTransform origAxe = g2d.getTransform();
-        AffineTransform newAxe = (AffineTransform)(origAxe.clone());
-
-        for (int i = 0; i < axes.size(); i++) {
-            w = (Weapon) axes.get(i);
-            newAxe.rotate(Math.toRadians(w.facing),w.getX()+w.width/2,w.getY()+w.height/2);
-            g2d.setTransform(newAxe);
-            g2d.drawImage(w.getImage(), w.getX(), w.getY(), this);
-        }
-
+        viking.draw(g);
+        w.draw(g, viking, w);
 
         Toolkit.getDefaultToolkit().sync();
         g.dispose();
