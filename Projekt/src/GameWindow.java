@@ -1,6 +1,6 @@
 import java.awt.*;
 import javax.imageio.ImageIO;
-import javax.swing.Timer;
+import javax.swing.*;
 import java.awt.event.KeyListener;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -9,8 +9,6 @@ import java.awt.Graphics;
 import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
 
 
 public class GameWindow extends JPanel implements  ActionListener {
@@ -31,12 +29,8 @@ public class GameWindow extends JPanel implements  ActionListener {
     private int velX = 0;
     private int velY = 0;
 
-    private BufferedImage viking;
-
-  //  private Image image = Toolkit.getDefaultToolkit().getImage("viking.jpg");
-
-    int cx = getSize().width / 2;
-    int cy = getSize().height / 2;
+    // int cx = getSize().width / 2;
+    //int cy = getSize().height / 2;
 
 
     // This refers to the actionListener.
@@ -48,6 +42,9 @@ public class GameWindow extends JPanel implements  ActionListener {
 
 
     public GameWindow () {
+
+        super();
+        //image = Toolkit.getDefaultToolkit().getImage("/images/TestIcon.ico");
 
          // KeyListener.
         listener = new KeyListener() {
@@ -74,7 +71,7 @@ public class GameWindow extends JPanel implements  ActionListener {
                     velY = 2;
                 }
 
-               // image = Toolkit.getDefaultToolkit().getImage("viking.jpg");
+
             }
 
 
@@ -109,21 +106,33 @@ public class GameWindow extends JPanel implements  ActionListener {
         super.paintComponents(g);
 
 
-        g.setColor(Color.BLACK);
-        g.fillRect(0, 0, width, height);
 
+        //g.setColor(Color.BLACK);
+        //g.fillRect(0, 0, width, height);
+
+
+        // Create Rectangle + Color
         g.setColor(Color.RED);
         g.fillRect(rectX, rectY, vikingW, vikingH);
 
+        // Load image for viking + drawing it at x & y pos
+        Image vikingImage = new ImageIcon("Images/minion.png").getImage();
+        g.drawImage(vikingImage, rectX +20, rectY+20, this);
+        Image bgImage = new ImageIcon("Images/PequeoPlayground-TopDownView.jpg").getImage();
+        g.drawImage(bgImage, 0, 0, this);
+        repaint();
         //rotate about 0, 0
-        Graphics2D graphics2D = (Graphics2D)g.create();
-        graphics2D.rotate(Math.toRadians(45));
-        graphics2D.setColor(Color.red);
-        graphics2D.fillRect(rectX, rectY, vikingW, vikingH);
+        //Graphics2D graphics2D = (Graphics2D)g.create();
+        //Graphics2D graphics2D = (Graphics2D)g;
+        //graphics2D.rotate(Math.toRadians(45));
+        //graphics2D.setColor(Color.red);
+        //graphics2D.translate(170, 0);
+        //graphics2D.rotate(1);
+        //graphics2D.fillRect(rectX, rectY, vikingW, vikingH);
 
-       // graphics2D.drawImage(image, 50, 50, this);
+        //graphics2D.drawImage(this.image, 50, 50, 200, 200, this);
 
-       // graphics2D.drawImage(image, -cx / 2, -cy / 2, this);
+        //g.drawImage(image, -cx / 2, -cy / 2, this);
         //rotate about 100, 100
         //graphics2D = (Graphics2D)g.create();
         //graphics2D.rotate(Math.toRadians(45), 100, 100);
@@ -132,7 +141,7 @@ public class GameWindow extends JPanel implements  ActionListener {
 
 
         //dispose Graphics2D object
-        graphics2D.dispose();
+        //graphics2D.dispose();
 
     }
 
