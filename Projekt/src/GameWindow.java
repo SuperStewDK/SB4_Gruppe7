@@ -21,6 +21,9 @@ public class GameWindow extends JPanel implements  ActionListener {
     private int vikingW = 55;
     private int vikingH = 35;
 
+    // Dimensions for the Viking Picture
+    private Dimension size = new Dimension();
+
     // Location of Viking.
     private int rectX = 100;
     private int rectY = 100;
@@ -53,6 +56,9 @@ public class GameWindow extends JPanel implements  ActionListener {
             public void keyPressed(KeyEvent e) {
 
                 int k = e.getKeyCode();
+                switch(k){
+
+                }
 
                 if (k == KeyEvent.VK_A || k == KeyEvent.VK_LEFT) {
                     velX = -2;
@@ -107,13 +113,15 @@ public class GameWindow extends JPanel implements  ActionListener {
 
 
 
-        //g.setColor(Color.BLACK);
-        //g.fillRect(0, 0, width, height);
+        g.setColor(Color.BLACK);
+        g.fillRect(0, 0, width, height);
 
 
         // Create Rectangle + Color
         g.setColor(Color.RED);
         g.fillRect(rectX, rectY, vikingW, vikingH);
+
+        //ImagePanel panel = new ImagePanel(new ImageIcon("images/background.png").getImage());
 
         // Load image for viking + drawing it at x & y pos
         Image vikingImage = new ImageIcon("Images/minion.png").getImage();
@@ -150,6 +158,7 @@ public class GameWindow extends JPanel implements  ActionListener {
 
     // Adding movement to the rectangle.
     public void actionPerformed(ActionEvent e){
+
         if (rectX < 0){
             velX = 0;
             rectX = 0;
@@ -200,6 +209,7 @@ public class GameWindow extends JPanel implements  ActionListener {
 
     public static void main(String [] args) {
         createWindow();
+
 
 
     }
