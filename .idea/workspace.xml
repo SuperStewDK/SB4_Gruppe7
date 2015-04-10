@@ -2,10 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5e9f1b4-2684-44f8-bbdc-197f74651063" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projekt/src/Map.java" afterPath="$PROJECT_DIR$/Projekt/src/Map.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projekt/src/Viking.java" afterPath="$PROJECT_DIR$/Projekt/src/Viking.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projekt/src/Weapon.java" afterPath="$PROJECT_DIR$/Projekt/src/Weapon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\.idea\libraries\java.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\.idea\libraries\jbox2d.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\.idea\libraries\jbox2d_library_2_2_1_1_javadoc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\.idea\libraries\org_jbox2d_jbox2d_library_2_2_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\Projekt\Projekt.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\Projekt\src\BoundingBox.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\Projekt\src\GameController.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\Projekt\src\GameWindow.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\Projekt\src\IEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\Projekt\src\Map.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\Projekt\src\Viking.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\Projekt\src\Weapon.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\Projekt\src\img\DodgeballMap.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\Projekt\src\img\helmet.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\Projekt\src\img\helmet2.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\Projekt\src\img\throwingaxe.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\Projekt\src\img\viking.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\SB4_Gruppe7.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\lib\jbox2d-library-2.2.1.1-javadoc.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Steffen\IdeaProjects\SB4_Gruppe7\lib\jbox2d-library-2.2.1.1.jar" afterPath="" />
     </list>
     <ignored path="SB4_Gruppe7.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,84 +56,7 @@
     <favorites_list name="SB4_Gruppe7" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="IEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projekt/src/IEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="340">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Viking.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projekt/src/Viking.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="519" max-vertical-offset="1479">
-              <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#move#0;class#Viking#0" expanded="false" />
-                <element signature="method#keyPressed#0;class#Viking#0" expanded="false" />
-                <element signature="method#keyReleased#0;class#Viking#0" expanded="false" />
-                <element signature="method#throwAxe#0;class#Viking#0" expanded="false" />
-                <element signature="e#3388#3389#0" expanded="true" />
-                <element signature="e#3415#3416#0" expanded="true" />
-                <element signature="method#checkHealth#0;class#Viking#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Weapon.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projekt/src/Weapon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="662" max-vertical-offset="1564">
-              <caret line="55" column="79" selection-start-line="55" selection-start-column="79" selection-end-line="55" selection-end-column="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Projekt/src/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2683544" vertical-offset="655" max-vertical-offset="1547">
-              <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projekt/src/GameWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="782">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoundingBox.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projekt/src/BoundingBox.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="306">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-              <folding>
-                <element signature="e#212#213#0" expanded="false" />
-                <element signature="e#240#241#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -118,7 +67,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="SteffenBenjamin" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="PUSH_TAGS">
@@ -134,10 +83,10 @@
         <option value="$PROJECT_DIR$/Projekt/src/Entity.java" />
         <option value="$PROJECT_DIR$/Projekt/src/BoundingBox.java" />
         <option value="$PROJECT_DIR$/Projekt/src/IEntity.java" />
-        <option value="$PROJECT_DIR$/Projekt/src/GameWindow.java" />
         <option value="$PROJECT_DIR$/Projekt/src/Viking.java" />
         <option value="$PROJECT_DIR$/Projekt/src/Weapon.java" />
         <option value="$PROJECT_DIR$/Projekt/src/Map.java" />
+        <option value="$PROJECT_DIR$/Projekt/src/GameWindow.java" />
       </list>
     </option>
   </component>
@@ -191,6 +140,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,41 +163,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SB4_Gruppe7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SB4_Gruppe7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projekt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SB4_Gruppe7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SB4_Gruppe7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projekt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -625,7 +542,13 @@
       <option name="project" value="LOCAL" />
       <updated>1427388505024</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Created viking and weapon owns draw methods.">
+      <created>1427459594983</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1427459594983</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -652,34 +575,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32704404" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32807216" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32620922" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33490565" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1669107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1669107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32704404" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33490565" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -711,7 +634,8 @@
     <MESSAGE value="tilføjet rotation på axe så den peger samme retning som viking, der er opstået et problem med at axes kun kan kastes 5 gange." />
     <MESSAGE value="Made the axe disappear on all sides of the screen" />
     <MESSAGE value="placed axe midscreen" />
-    <option name="LAST_COMMIT_MESSAGE" value="placed axe midscreen" />
+    <MESSAGE value="Created viking and weapon owns draw methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created viking and weapon owns draw methods." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -726,10 +650,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="340">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="e#212#213#0" expanded="false" />
-            <element signature="e#240#241#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -737,16 +658,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2385">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#move#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyPressed#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyReleased#0;class#Viking#0" expanded="false" />
-            <element signature="method#throwAxe#0;class#Viking#0" expanded="false" />
-            <element signature="e#3388#3389#0" expanded="true" />
-            <element signature="e#3415#3416#0" expanded="true" />
-            <element signature="method#checkHealth#0;class#Viking#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -754,9 +666,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="990">
           <caret line="19" column="112" selection-start-line="19" selection-start-column="112" selection-end-line="19" selection-end-column="112" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -764,9 +674,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1485">
           <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -782,16 +690,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2235">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#move#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyPressed#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyReleased#0;class#Viking#0" expanded="false" />
-            <element signature="method#throwAxe#0;class#Viking#0" expanded="false" />
-            <element signature="e#3388#3389#0" expanded="true" />
-            <element signature="e#3415#3416#0" expanded="true" />
-            <element signature="method#checkHealth#0;class#Viking#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -799,9 +698,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1230">
           <caret line="46" column="70" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -817,9 +714,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="578">
           <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -827,9 +722,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="425">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -837,16 +730,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#move#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyPressed#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyReleased#0;class#Viking#0" expanded="false" />
-            <element signature="method#throwAxe#0;class#Viking#0" expanded="false" />
-            <element signature="e#3388#3389#0" expanded="true" />
-            <element signature="e#3415#3416#0" expanded="true" />
-            <element signature="method#checkHealth#0;class#Viking#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -870,9 +754,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -880,9 +762,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="425">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -890,16 +770,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="1224">
           <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#move#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyPressed#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyReleased#0;class#Viking#0" expanded="false" />
-            <element signature="method#throwAxe#0;class#Viking#0" expanded="false" />
-            <element signature="e#3388#3389#0" expanded="true" />
-            <element signature="e#3415#3416#0" expanded="true" />
-            <element signature="method#checkHealth#0;class#Viking#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -923,9 +794,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="561">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -933,9 +802,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="425">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -943,16 +810,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1139">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#move#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyPressed#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyReleased#0;class#Viking#0" expanded="false" />
-            <element signature="method#throwAxe#0;class#Viking#0" expanded="false" />
-            <element signature="e#3388#3389#0" expanded="true" />
-            <element signature="e#3415#3416#0" expanded="true" />
-            <element signature="method#checkHealth#0;class#Viking#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -968,9 +826,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="561">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -978,9 +834,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="425">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -988,16 +842,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1139">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#move#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyPressed#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyReleased#0;class#Viking#0" expanded="false" />
-            <element signature="method#throwAxe#0;class#Viking#0" expanded="false" />
-            <element signature="e#3388#3389#0" expanded="true" />
-            <element signature="e#3415#3416#0" expanded="true" />
-            <element signature="method#checkHealth#0;class#Viking#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,9 +858,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="561">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,9 +866,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="425">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,16 +874,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1139">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#move#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyPressed#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyReleased#0;class#Viking#0" expanded="false" />
-            <element signature="method#throwAxe#0;class#Viking#0" expanded="false" />
-            <element signature="e#3388#3389#0" expanded="true" />
-            <element signature="e#3415#3416#0" expanded="true" />
-            <element signature="method#checkHealth#0;class#Viking#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,9 +890,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="578">
           <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,9 +898,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="425">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,16 +906,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="782">
           <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#move#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyPressed#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyReleased#0;class#Viking#0" expanded="false" />
-            <element signature="method#throwAxe#0;class#Viking#0" expanded="false" />
-            <element signature="e#3388#3389#0" expanded="true" />
-            <element signature="e#3415#3416#0" expanded="true" />
-            <element signature="method#checkHealth#0;class#Viking#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,9 +922,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="425">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1113,16 +930,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="782">
           <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#move#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyPressed#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyReleased#0;class#Viking#0" expanded="false" />
-            <element signature="method#throwAxe#0;class#Viking#0" expanded="false" />
-            <element signature="e#3388#3389#0" expanded="true" />
-            <element signature="e#3415#3416#0" expanded="true" />
-            <element signature="method#checkHealth#0;class#Viking#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,9 +946,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="425">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,16 +954,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#move#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyPressed#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyReleased#0;class#Viking#0" expanded="false" />
-            <element signature="method#throwAxe#0;class#Viking#0" expanded="false" />
-            <element signature="e#3388#3389#0" expanded="true" />
-            <element signature="e#3415#3416#0" expanded="true" />
-            <element signature="method#checkHealth#0;class#Viking#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1173,9 +970,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="425">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,16 +978,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#move#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyPressed#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyReleased#0;class#Viking#0" expanded="false" />
-            <element signature="method#throwAxe#0;class#Viking#0" expanded="false" />
-            <element signature="e#3388#3389#0" expanded="true" />
-            <element signature="e#3415#3416#0" expanded="true" />
-            <element signature="method#checkHealth#0;class#Viking#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1200,9 +986,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="510">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,7 +1004,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Projekt/src/IEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+        <state vertical-scroll-proportion="0.08388158" vertical-offset="0" max-vertical-offset="608">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="16" />
           <folding />
         </state>
@@ -1228,57 +1012,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Projekt/src/BoundingBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+        <state vertical-scroll-proportion="0.30756578" vertical-offset="0" max-vertical-offset="608">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="e#212#213#0" expanded="false" />
-            <element signature="e#240#241#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Projekt/src/GameWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="714">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projekt/src/Viking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="834" max-vertical-offset="1479">
-          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#move#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyPressed#0;class#Viking#0" expanded="false" />
-            <element signature="method#keyReleased#0;class#Viking#0" expanded="false" />
-            <element signature="method#throwAxe#0;class#Viking#0" expanded="false" />
-            <element signature="e#3388#3389#0" expanded="true" />
-            <element signature="e#3415#3416#0" expanded="true" />
-            <element signature="method#checkHealth#0;class#Viking#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Projekt/src/Weapon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="662" max-vertical-offset="1564">
-          <caret line="55" column="79" selection-start-line="55" selection-start-column="79" selection-end-line="55" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projekt/src/Viking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="2465">
+          <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Projekt/src/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2683544" vertical-offset="655" max-vertical-offset="1547">
-          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.96546054" vertical-offset="824" max-vertical-offset="1547">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
