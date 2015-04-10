@@ -33,7 +33,7 @@ public class GameWindow extends JFrame{
         EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
-                GameWindow ex = new GameWindow();
+                GameWindow ex = GameWindow.getInstance();
                 ex.setVisible(true);
             }
         });
